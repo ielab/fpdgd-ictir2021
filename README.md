@@ -34,3 +34,15 @@ sh run_fpdgd.sh
 
 To reproduce the FOLtR_ES baseline, check [FOLtR-ES](https://github.com/facebookresearch/foltr-es).
 To reproduce the PDGD baseline, check [PDGD](https://github.com/HarrieO/OnlineLearningToRank).
+
+## Citation
+If you use this code to produce results for your scientific publication, or if you share a copy or fork, please refer to our ICTIR2021 paper:
+```
+@inproceedings{wang2021effective,
+  title={Effective and Privacy-preserving Federated Online Learning to Rank},
+  author={Wang, Shuyi and Liu, Bing and Zhuang, Shengyao and Zuccon, Guido},
+  booktitle={Proceedings of the 2021 ACM SIGIR on International Conference on Theory of Information Retrieval},
+  year={2021},
+  organization={ACM}
+}
+```
