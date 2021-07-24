@@ -30,6 +30,7 @@ def do_task(task):
              epsilon=epsilon,
              ranker_generator=ranker_generator,
              linear_ranker=linear_ranker,
+             enable_noise=enable_noise
              ))
 
     trainset = LetorDataset("{}/Fold{}/train.txt".format(params['dataset_path'], fold_id + 1),
